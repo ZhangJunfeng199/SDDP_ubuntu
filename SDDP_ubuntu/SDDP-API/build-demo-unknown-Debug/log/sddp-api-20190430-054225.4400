@@ -1,0 +1,17 @@
+Log file created at: 2019/04/30 05:42:25
+Running on machine: xuan-N8xEJEK
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0430 05:42:25.972550  4400 sddp.cpp:961] connecting to board server...
+I0430 05:42:25.973559  4400 sddp.cpp:966] connected to board server done
+I0430 05:42:25.974339  4400 sddp.cpp:978] connected
+I0430 05:42:25.974359  4400 sddp.cpp:374] success to connect to board
+I0430 05:42:25.974589  4400 mainwindow.cpp:181] InitService OK
+I0430 05:42:30.234254  4400 sddp.cpp:455] target mode is same to current mode
+I0430 05:42:38.618592  4400 sddp.cpp:455] target mode is same to current mode
+I0430 05:42:44.030068  4400 sddp.cpp:455] target mode is same to current mode
+I0430 05:42:55.719640  4400 sddp.cpp:515] enable steer ctrl
+E0430 05:43:20.202191  4400 sddp.cpp:301] same steer angle value with record value or invalid steer angle value
+E0430 05:43:20.379792  4400 sddp.cpp:301] same steer angle value with record value or invalid steer angle value
+E0430 05:43:20.660387  4400 sddp.cpp:301] same steer angle value with record value or invalid steer angle value
+E0430 05:43:33.031680  4400 sddp.cpp:301] same steer angle value with record value or invalid steer angle value
+I0430 05:43:51.811749  4400 sddp.cpp:515] enable steer ctrl

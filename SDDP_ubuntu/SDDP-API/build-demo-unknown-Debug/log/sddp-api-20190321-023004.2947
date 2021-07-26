@@ -1,0 +1,8 @@
+Log file created at: 2019/03/21 02:30:04
+Running on machine: open-iv-Nuvo-6108GC
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0321 02:30:04.155498  2947 sddp.cpp:961] connecting to board server...
+I0321 02:30:04.157171  2947 sddp.cpp:966] connected to board server done
+I0321 02:30:04.157704  2947 sddp.cpp:978] connected
+I0321 02:30:04.157721  2947 sddp.cpp:374] success to connect to board
+I0321 02:30:04.157968  2947 mainwindow.cpp:181] InitService OK

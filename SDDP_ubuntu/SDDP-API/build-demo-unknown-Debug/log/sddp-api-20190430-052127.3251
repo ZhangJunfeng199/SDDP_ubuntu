@@ -1,0 +1,4 @@
+Log file created at: 2019/04/30 05:21:27
+Running on machine: xuan-N8xEJEK
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0430 05:21:27.188663  3251 sddp.cpp:961] connecting to board server...

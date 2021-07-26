@@ -1,0 +1,1007 @@
+The system is: Linux - 4.15.0-58-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/3.5.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/3.5.1/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2d4f6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2d4f6.dir/build.make CMakeFiles/cmTC_2d4f6.dir/build
+make[1]: Entering directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2d4f6.dir/testCCompiler.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_2d4f6.dir/testCCompiler.c.o   -c /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_2d4f6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2d4f6.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_2d4f6.dir/testCCompiler.c.o  -o cmTC_2d4f6 -rdynamic 
+make[1]: Leaving directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2e21c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2e21c.dir/build.make CMakeFiles/cmTC_2e21c.dir/build
+make[1]: Entering directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2e21c.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_2e21c.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_2e21c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e21c.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTC_2e21c.dir/CMakeCCompilerABI.c.o  -o cmTC_2e21c -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.11' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.11) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2e21c' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFSzdxD.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_2e21c /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_2e21c.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_2e21c/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_2e21c.dir/build.make CMakeFiles/cmTC_2e21c.dir/build]
+  ignore line: [make[1]: Entering directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_2e21c.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_2e21c.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_2e21c]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e21c.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_2e21c.dir/CMakeCCompilerABI.c.o  -o cmTC_2e21c -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.11' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.11) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2e21c' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFSzdxD.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_2e21c /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_2e21c.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccFSzdxD.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_2e21c] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
+    arg [CMakeFiles/cmTC_2e21c.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5] ==> [/usr/lib/gcc/x86_64-linux-gnu/5]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/5;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d48c8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d48c8.dir/build.make CMakeFiles/cmTC_d48c8.dir/build
+make[1]: Entering directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d48c8.dir/feature_tests.c.o
+/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_d48c8.dir/feature_tests.c.o   -c /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_d48c8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d48c8.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_d48c8.dir/feature_tests.c.o  -o cmTC_d48c8 -rdynamic 
+make[1]: Leaving directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9a2ed/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9a2ed.dir/build.make CMakeFiles/cmTC_9a2ed.dir/build
+make[1]: Entering directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9a2ed.dir/feature_tests.c.o
+/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_9a2ed.dir/feature_tests.c.o   -c /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_9a2ed
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9a2ed.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_9a2ed.dir/feature_tests.c.o  -o cmTC_9a2ed -rdynamic 
+make[1]: Leaving directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4aefd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4aefd.dir/build.make CMakeFiles/cmTC_4aefd.dir/build
+make[1]: Entering directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4aefd.dir/feature_tests.c.o
+/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_4aefd.dir/feature_tests.c.o   -c /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_4aefd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4aefd.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_4aefd.dir/feature_tests.c.o  -o cmTC_4aefd -rdynamic 
+make[1]: Leaving directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5dea8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5dea8.dir/build.make CMakeFiles/cmTC_5dea8.dir/build
+make[1]: Entering directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5dea8.dir/testCXXCompiler.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_5dea8.dir/testCXXCompiler.cxx.o -c /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_5dea8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5dea8.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_5dea8.dir/testCXXCompiler.cxx.o  -o cmTC_5dea8 -rdynamic 
+make[1]: Leaving directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_82111/fast"
+/usr/bin/make -f CMakeFiles/cmTC_82111.dir/build.make CMakeFiles/cmTC_82111.dir/build
+make[1]: Entering directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_82111.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++      -o CMakeFiles/cmTC_82111.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_82111
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82111.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTC_82111.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_82111 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.11' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.11) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_82111' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccdskKA9.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_82111 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_82111.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_82111/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_82111.dir/build.make CMakeFiles/cmTC_82111.dir/build]
+  ignore line: [make[1]: Entering directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_82111.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_82111.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_82111]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82111.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_82111.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_82111 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.11' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.11) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_82111' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccdskKA9.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_82111 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_82111.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccdskKA9.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_82111] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
+    arg [CMakeFiles/cmTC_82111.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5] ==> [/usr/lib/gcc/x86_64-linux-gnu/5]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/5;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_906c0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_906c0.dir/build.make CMakeFiles/cmTC_906c0.dir/build
+make[1]: Entering directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_906c0.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_906c0.dir/feature_tests.cxx.o -c /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_906c0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_906c0.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_906c0.dir/feature_tests.cxx.o  -o cmTC_906c0 -rdynamic 
+make[1]: Leaving directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0eb86/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0eb86.dir/build.make CMakeFiles/cmTC_0eb86.dir/build
+make[1]: Entering directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0eb86.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_0eb86.dir/feature_tests.cxx.o -c /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_0eb86
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0eb86.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_0eb86.dir/feature_tests.cxx.o  -o cmTC_0eb86 -rdynamic 
+make[1]: Leaving directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_81b43/fast"
+/usr/bin/make -f CMakeFiles/cmTC_81b43.dir/build.make CMakeFiles/cmTC_81b43.dir/build
+make[1]: Entering directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_81b43.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_81b43.dir/feature_tests.cxx.o -c /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_81b43
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81b43.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_81b43.dir/feature_tests.cxx.o  -o cmTC_81b43 -rdynamic 
+make[1]: Leaving directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX11 succeeded with the following output:
+Change Dir: /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ad046/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ad046.dir/build.make CMakeFiles/cmTC_ad046.dir/build
+make[1]: Entering directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ad046.dir/src.cxx.o
+/usr/bin/c++     -DCOMPILER_SUPPORTS_CXX11   -std=gnu++11 -o CMakeFiles/cmTC_ad046.dir/src.cxx.o -c /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_ad046
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad046.dir/link.txt --verbose=1
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX11    CMakeFiles/cmTC_ad046.dir/src.cxx.o  -o cmTC_ad046 -rdynamic 
+make[1]: Leaving directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_C11 succeeded with the following output:
+Change Dir: /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2c430/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2c430.dir/build.make CMakeFiles/cmTC_2c430.dir/build
+make[1]: Entering directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2c430.dir/src.c.o
+/usr/bin/cc    -DCOMPILER_SUPPORTS_C11   -std=gnu11 -o CMakeFiles/cmTC_2c430.dir/src.c.o   -c /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_2c430
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c430.dir/link.txt --verbose=1
+/usr/bin/cc   -DCOMPILER_SUPPORTS_C11    CMakeFiles/cmTC_2c430.dir/src.c.o  -o cmTC_2c430 -rdynamic 
+make[1]: Leaving directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Determining if the function epoll_create exists passed with the following output:
+Change Dir: /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_edfb3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_edfb3.dir/build.make CMakeFiles/cmTC_edfb3.dir/build
+make[1]: Entering directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_edfb3.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -I/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp/sys/epoll.h  -std=gnu11 -DCHECK_FUNCTION_EXISTS=epoll_create   -o CMakeFiles/cmTC_edfb3.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_edfb3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_edfb3.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu11 -DCHECK_FUNCTION_EXISTS=epoll_create    CMakeFiles/cmTC_edfb3.dir/CheckFunctionExists.c.o  -o cmTC_edfb3 -rdynamic 
+make[1]: Leaving directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function epoll_create1 exists passed with the following output:
+Change Dir: /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9c5d1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9c5d1.dir/build.make CMakeFiles/cmTC_9c5d1.dir/build
+make[1]: Entering directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9c5d1.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -std=gnu11 -DCHECK_FUNCTION_EXISTS=epoll_create1   -o CMakeFiles/cmTC_9c5d1.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9c5d1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9c5d1.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu11 -DCHECK_FUNCTION_EXISTS=epoll_create1    CMakeFiles/cmTC_9c5d1.dir/CheckFunctionExists.c.o  -o cmTC_9c5d1 -rdynamic 
+make[1]: Leaving directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files ifaddrs.h exist passed with the following output:
+Change Dir: /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ab673/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ab673.dir/build.make CMakeFiles/cmTC_ab673.dir/build
+make[1]: Entering directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ab673.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -std=gnu11    -o CMakeFiles/cmTC_ab673.dir/CheckIncludeFiles.c.o   -c /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_ab673
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ab673.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu11     CMakeFiles/cmTC_ab673.dir/CheckIncludeFiles.c.o  -o cmTC_ab673 -rdynamic 
+make[1]: Leaving directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/uio.h exist passed with the following output:
+Change Dir: /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c2c62/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c2c62.dir/build.make CMakeFiles/cmTC_c2c62.dir/build
+make[1]: Entering directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c2c62.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -std=gnu11    -o CMakeFiles/cmTC_c2c62.dir/CheckIncludeFiles.c.o   -c /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_c2c62
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c2c62.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu11     CMakeFiles/cmTC_c2c62.dir/CheckIncludeFiles.c.o  -o cmTC_c2c62 -rdynamic 
+make[1]: Leaving directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/eventfd.h exist passed with the following output:
+Change Dir: /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2a65b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2a65b.dir/build.make CMakeFiles/cmTC_2a65b.dir/build
+make[1]: Entering directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2a65b.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -std=gnu11    -o CMakeFiles/cmTC_2a65b.dir/CheckIncludeFiles.c.o   -c /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_2a65b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a65b.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu11     CMakeFiles/cmTC_2a65b.dir/CheckIncludeFiles.c.o  -o cmTC_2a65b -rdynamic 
+make[1]: Leaving directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test ZMQ_HAVE_EVENTFD_CLOEXEC succeeded with the following output:
+Change Dir: /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_65f27/fast"
+/usr/bin/make -f CMakeFiles/cmTC_65f27.dir/build.make CMakeFiles/cmTC_65f27.dir/build
+make[1]: Entering directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_65f27.dir/src.c.o
+/usr/bin/cc    -std=gnu11 -DZMQ_HAVE_EVENTFD_CLOEXEC   -o CMakeFiles/cmTC_65f27.dir/src.c.o   -c /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_65f27
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65f27.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu11 -DZMQ_HAVE_EVENTFD_CLOEXEC    CMakeFiles/cmTC_65f27.dir/src.c.o  -o cmTC_65f27 -rdynamic 
+make[1]: Leaving directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+
+Return value: 1
+Source file was:
+
+#include <sys/eventfd.h>
+
+int main(int argc, char *argv [])
+{
+    int s = eventfd (0, EFD_CLOEXEC);
+    return(s == -1);
+}
+
+Determining if the SO_PEERCRED exist passed with the following output:
+Change Dir: /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_17621/fast"
+/usr/bin/make -f CMakeFiles/cmTC_17621.dir/build.make CMakeFiles/cmTC_17621.dir/build
+make[1]: Entering directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_17621.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++     -std=gnu++11    -o CMakeFiles/cmTC_17621.dir/CheckSymbolExists.cxx.o -c /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_17621
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17621.dir/link.txt --verbose=1
+/usr/bin/c++    -std=gnu++11     CMakeFiles/cmTC_17621.dir/CheckSymbolExists.cxx.o  -o cmTC_17621 -rdynamic 
+make[1]: Leaving directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+
+File /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <sys/socket.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef SO_PEERCRED
+  return ((int*)(&SO_PEERCRED))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fe647/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fe647.dir/build.make CMakeFiles/cmTC_fe647.dir/build
+make[1]: Entering directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fe647.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -std=gnu11    -o CMakeFiles/cmTC_fe647.dir/CheckIncludeFile.c.o   -c /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_fe647
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fe647.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu11     CMakeFiles/cmTC_fe647.dir/CheckIncludeFile.c.o  -o cmTC_fe647 -rdynamic 
+make[1]: Leaving directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2ab54/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2ab54.dir/build.make CMakeFiles/cmTC_2ab54.dir/build
+make[1]: Entering directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2ab54.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -std=gnu11 -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_2ab54.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2ab54
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ab54.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu11 -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_2ab54.dir/CheckFunctionExists.c.o  -o cmTC_2ab54 -rdynamic -lpthread 
+make[1]: Leaving directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function clock_gettime exists passed with the following output:
+Change Dir: /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_83938/fast"
+/usr/bin/make -f CMakeFiles/cmTC_83938.dir/build.make CMakeFiles/cmTC_83938.dir/build
+make[1]: Entering directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_83938.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -std=gnu11 -DCHECK_FUNCTION_EXISTS=clock_gettime   -o CMakeFiles/cmTC_83938.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_83938
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83938.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu11 -DCHECK_FUNCTION_EXISTS=clock_gettime    CMakeFiles/cmTC_83938.dir/CheckFunctionExists.c.o  -o cmTC_83938 -rdynamic -lrt 
+make[1]: Leaving directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function fork exists passed with the following output:
+Change Dir: /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d4fb9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d4fb9.dir/build.make CMakeFiles/cmTC_d4fb9.dir/build
+make[1]: Entering directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d4fb9.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -I/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp/unistd.h  -std=gnu11 -DCHECK_FUNCTION_EXISTS=fork   -o CMakeFiles/cmTC_d4fb9.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘fork’
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTC_d4fb9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4fb9.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu11 -DCHECK_FUNCTION_EXISTS=fork    CMakeFiles/cmTC_d4fb9.dir/CheckFunctionExists.c.o  -o cmTC_d4fb9 -rdynamic 
+make[1]: Leaving directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function mkdtemp exists passed with the following output:
+Change Dir: /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7c4c3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7c4c3.dir/build.make CMakeFiles/cmTC_7c4c3.dir/build
+make[1]: Entering directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7c4c3.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -I/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp/stdlib.h  -std=gnu11 -DCHECK_FUNCTION_EXISTS=mkdtemp   -o CMakeFiles/cmTC_7c4c3.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7c4c3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c4c3.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu11 -DCHECK_FUNCTION_EXISTS=mkdtemp    CMakeFiles/cmTC_7c4c3.dir/CheckFunctionExists.c.o  -o cmTC_7c4c3 -rdynamic 
+make[1]: Leaving directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+
+
+Performing C++ SOURCE FILE Test HAVE_FLAG_-Wall succeeded with the following output:
+Change Dir: /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4835e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4835e.dir/build.make CMakeFiles/cmTC_4835e.dir/build
+make[1]: Entering directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4835e.dir/src.cxx.o
+/usr/bin/c++     -std=gnu++11 -DHAVE_FLAG_-Wall   -Wall -o CMakeFiles/cmTC_4835e.dir/src.cxx.o -c /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp/src.cxx
+<command-line>:0:11: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_4835e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4835e.dir/link.txt --verbose=1
+/usr/bin/c++    -std=gnu++11 -DHAVE_FLAG_-Wall    CMakeFiles/cmTC_4835e.dir/src.cxx.o  -o cmTC_4835e -rdynamic 
+make[1]: Leaving directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_FLAG_-Wextra succeeded with the following output:
+Change Dir: /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_98e95/fast"
+/usr/bin/make -f CMakeFiles/cmTC_98e95.dir/build.make CMakeFiles/cmTC_98e95.dir/build
+make[1]: Entering directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_98e95.dir/src.cxx.o
+/usr/bin/c++     -std=gnu++11 -Wall -DHAVE_FLAG_-Wextra   -Wextra -o CMakeFiles/cmTC_98e95.dir/src.cxx.o -c /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp/src.cxx
+<command-line>:0:11: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_98e95
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98e95.dir/link.txt --verbose=1
+/usr/bin/c++    -std=gnu++11 -Wall -DHAVE_FLAG_-Wextra    CMakeFiles/cmTC_98e95.dir/src.cxx.o  -o cmTC_98e95 -rdynamic 
+make[1]: Leaving directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_FLAG_-Wno-long-long succeeded with the following output:
+Change Dir: /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_39708/fast"
+/usr/bin/make -f CMakeFiles/cmTC_39708.dir/build.make CMakeFiles/cmTC_39708.dir/build
+make[1]: Entering directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_39708.dir/src.cxx.o
+/usr/bin/c++     -std=gnu++11 -Wall -Wextra -DHAVE_FLAG_-Wno-long-long   -Wno-long-long -o CMakeFiles/cmTC_39708.dir/src.cxx.o -c /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp/src.cxx
+<command-line>:0:11: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_39708
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39708.dir/link.txt --verbose=1
+/usr/bin/c++    -std=gnu++11 -Wall -Wextra -DHAVE_FLAG_-Wno-long-long    CMakeFiles/cmTC_39708.dir/src.cxx.o  -o cmTC_39708 -rdynamic 
+make[1]: Leaving directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_FLAG_-Wno-uninitialized succeeded with the following output:
+Change Dir: /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3ba12/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3ba12.dir/build.make CMakeFiles/cmTC_3ba12.dir/build
+make[1]: Entering directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3ba12.dir/src.cxx.o
+/usr/bin/c++     -std=gnu++11 -Wall -Wextra -Wno-long-long -DHAVE_FLAG_-Wno-uninitialized   -Wno-uninitialized -o CMakeFiles/cmTC_3ba12.dir/src.cxx.o -c /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp/src.cxx
+<command-line>:0:11: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_3ba12
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ba12.dir/link.txt --verbose=1
+/usr/bin/c++    -std=gnu++11 -Wall -Wextra -Wno-long-long -DHAVE_FLAG_-Wno-uninitialized    CMakeFiles/cmTC_3ba12.dir/src.cxx.o  -o cmTC_3ba12 -rdynamic 
+make[1]: Leaving directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_FLAG_-pedantic succeeded with the following output:
+Change Dir: /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_584bf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_584bf.dir/build.make CMakeFiles/cmTC_584bf.dir/build
+make[1]: Entering directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_584bf.dir/src.cxx.o
+/usr/bin/c++     -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -DHAVE_FLAG_-pedantic   -pedantic -o CMakeFiles/cmTC_584bf.dir/src.cxx.o -c /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp/src.cxx
+<command-line>:0:11: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_584bf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_584bf.dir/link.txt --verbose=1
+/usr/bin/c++    -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -DHAVE_FLAG_-pedantic    CMakeFiles/cmTC_584bf.dir/src.cxx.o  -o cmTC_584bf -rdynamic 
+make[1]: Leaving directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test ZMQ_HAVE_SOCK_CLOEXEC succeeded with the following output:
+Change Dir: /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_49bf2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_49bf2.dir/build.make CMakeFiles/cmTC_49bf2.dir/build
+make[1]: Entering directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_49bf2.dir/src.c.o
+/usr/bin/cc    -std=gnu11 -DZMQ_HAVE_SOCK_CLOEXEC   -o CMakeFiles/cmTC_49bf2.dir/src.c.o   -c /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_49bf2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49bf2.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu11 -DZMQ_HAVE_SOCK_CLOEXEC    CMakeFiles/cmTC_49bf2.dir/src.c.o  -o cmTC_49bf2 -rdynamic 
+make[1]: Leaving directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+
+Return value: 1
+Source file was:
+
+#include <sys/types.h>
+#include <sys/socket.h>
+
+int main(int argc, char *argv [])
+{
+    int s = socket(PF_INET, SOCK_STREAM | SOCK_CLOEXEC, 0);
+    return(s == -1);
+}
+
+Performing C SOURCE FILE Test ZMQ_HAVE_SO_KEEPALIVE succeeded with the following output:
+Change Dir: /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_97eef/fast"
+/usr/bin/make -f CMakeFiles/cmTC_97eef.dir/build.make CMakeFiles/cmTC_97eef.dir/build
+make[1]: Entering directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_97eef.dir/src.c.o
+/usr/bin/cc    -std=gnu11 -DZMQ_HAVE_SO_KEEPALIVE   -o CMakeFiles/cmTC_97eef.dir/src.c.o   -c /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_97eef
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_97eef.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu11 -DZMQ_HAVE_SO_KEEPALIVE    CMakeFiles/cmTC_97eef.dir/src.c.o  -o cmTC_97eef -rdynamic 
+make[1]: Leaving directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+
+Return value: 1
+Source file was:
+
+#include <sys/types.h>
+#include <sys/socket.h>
+
+int main(int argc, char *argv [])
+{
+    int s, rc, opt = 1;
+    return(
+       ((s = socket(PF_INET, SOCK_STREAM, 0)) == -1) ||
+       ((rc = setsockopt(s, SOL_SOCKET, SO_KEEPALIVE,(char*) &opt, sizeof(int))) == -1)
+    );
+}
+
+Performing C SOURCE FILE Test ZMQ_HAVE_TCP_KEEPCNT succeeded with the following output:
+Change Dir: /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1e8fc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1e8fc.dir/build.make CMakeFiles/cmTC_1e8fc.dir/build
+make[1]: Entering directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1e8fc.dir/src.c.o
+/usr/bin/cc    -std=gnu11 -DZMQ_HAVE_TCP_KEEPCNT   -o CMakeFiles/cmTC_1e8fc.dir/src.c.o   -c /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_1e8fc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e8fc.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu11 -DZMQ_HAVE_TCP_KEEPCNT    CMakeFiles/cmTC_1e8fc.dir/src.c.o  -o cmTC_1e8fc -rdynamic 
+make[1]: Leaving directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+
+Return value: 1
+Source file was:
+
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+
+int main(int argc, char *argv [])
+{
+    int s, rc, opt = 1;
+    return(
+       ((s = socket(PF_INET, SOCK_STREAM, 0)) == -1) ||
+       ((rc = setsockopt(s, SOL_SOCKET, SO_KEEPALIVE,(char*) &opt, sizeof(int))) == -1) ||
+       ((rc = setsockopt(s, IPPROTO_TCP, TCP_KEEPCNT,(char*) &opt, sizeof(int))) == -1)
+    );
+}
+
+Performing C SOURCE FILE Test ZMQ_HAVE_TCP_KEEPIDLE succeeded with the following output:
+Change Dir: /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a5db8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a5db8.dir/build.make CMakeFiles/cmTC_a5db8.dir/build
+make[1]: Entering directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a5db8.dir/src.c.o
+/usr/bin/cc    -std=gnu11 -DZMQ_HAVE_TCP_KEEPIDLE   -o CMakeFiles/cmTC_a5db8.dir/src.c.o   -c /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_a5db8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5db8.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu11 -DZMQ_HAVE_TCP_KEEPIDLE    CMakeFiles/cmTC_a5db8.dir/src.c.o  -o cmTC_a5db8 -rdynamic 
+make[1]: Leaving directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+
+Return value: 1
+Source file was:
+
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+
+int main(int argc, char *argv [])
+{
+    int s, rc, opt = 1;
+    return(
+       ((s = socket(PF_INET, SOCK_STREAM, 0)) == -1) ||
+       ((rc = setsockopt(s, SOL_SOCKET, SO_KEEPALIVE,(char*) &opt, sizeof(int))) == -1) ||
+       ((rc = setsockopt(s, IPPROTO_TCP, TCP_KEEPIDLE,(char*) &opt, sizeof(int))) == -1)
+    );
+}
+
+Performing C SOURCE FILE Test ZMQ_HAVE_TCP_KEEPINTVL succeeded with the following output:
+Change Dir: /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ce07f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ce07f.dir/build.make CMakeFiles/cmTC_ce07f.dir/build
+make[1]: Entering directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ce07f.dir/src.c.o
+/usr/bin/cc    -std=gnu11 -DZMQ_HAVE_TCP_KEEPINTVL   -o CMakeFiles/cmTC_ce07f.dir/src.c.o   -c /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_ce07f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ce07f.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu11 -DZMQ_HAVE_TCP_KEEPINTVL    CMakeFiles/cmTC_ce07f.dir/src.c.o  -o cmTC_ce07f -rdynamic 
+make[1]: Leaving directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+
+Return value: 1
+Source file was:
+
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+
+int main(int argc, char *argv [])
+{
+    int s, rc, opt = 1;
+    return(
+       ((s = socket(PF_INET, SOCK_STREAM, 0)) == -1) ||
+       ((rc = setsockopt(s, SOL_SOCKET, SO_KEEPALIVE,(char*) &opt, sizeof(int))) == -1) ||
+       ((rc = setsockopt(s, IPPROTO_TCP, TCP_KEEPINTVL,(char*) &opt, sizeof(int))) == -1)
+    );
+}
+
+

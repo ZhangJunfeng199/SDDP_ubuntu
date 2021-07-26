@@ -1,0 +1,14 @@
+Log file created at: 2018/12/23 21:01:18
+Running on machine: open-iv-Nuvo-6108GC
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1223 21:01:18.018103  8854 sddp.cpp:961] connecting to board server...
+I1223 21:01:18.020850  8854 sddp.cpp:966] connected to board server done
+I1223 21:01:18.023275  8854 sddp.cpp:978] connected
+I1223 21:01:18.023300  8854 sddp.cpp:374] success to connect to board
+I1223 21:01:18.024816  8854 mainwindow.cpp:181] InitService OK
+I1223 21:01:23.192173  8854 mainwindow.cpp:181] InitService OK
+W1223 21:01:24.248320  8854 sddp.cpp:1009] board not online or is still connecting, try again
+W1223 21:01:25.136420  8854 sddp.cpp:1009] board not online or is still connecting, try again
+W1223 21:01:25.472935  8854 sddp.cpp:1009] board not online or is still connecting, try again
+W1223 21:01:25.832396  8854 sddp.cpp:1009] board not online or is still connecting, try again
+W1223 21:01:26.120848  8854 sddp.cpp:1009] board not online or is still connecting, try again

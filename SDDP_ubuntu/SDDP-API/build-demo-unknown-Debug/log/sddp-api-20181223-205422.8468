@@ -1,0 +1,52 @@
+Log file created at: 2018/12/23 20:54:22
+Running on machine: open-iv-Nuvo-6108GC
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1223 20:54:22.239975  8468 sddp.cpp:961] connecting to board server...
+I1223 20:54:22.241788  8468 sddp.cpp:966] connected to board server done
+I1223 20:54:22.244288  8468 sddp.cpp:978] connected
+I1223 20:54:22.244323  8468 sddp.cpp:374] success to connect to board
+I1223 20:54:22.245503  8468 mainwindow.cpp:173] InitService OK
+I1223 20:54:24.686223  8468 mainwindow.cpp:173] InitService OK
+I1223 20:54:26.142251  8468 mainwindow.cpp:173] InitService OK
+I1223 20:54:26.526227  8468 mainwindow.cpp:173] InitService OK
+I1223 20:54:26.910176  8468 mainwindow.cpp:173] InitService OK
+I1223 20:54:27.094202  8468 mainwindow.cpp:173] InitService OK
+I1223 20:54:27.286183  8468 mainwindow.cpp:173] InitService OK
+I1223 20:54:27.478210  8468 mainwindow.cpp:173] InitService OK
+W1223 20:54:28.190263  8468 sddp.cpp:1009] board not online or is still connecting, try again
+W1223 20:54:29.206434  8468 sddp.cpp:1009] board not online or is still connecting, try again
+W1223 20:54:29.542212  8468 sddp.cpp:1009] board not online or is still connecting, try again
+W1223 20:54:29.918987  8468 sddp.cpp:1009] board not online or is still connecting, try again
+W1223 20:54:30.206360  8468 sddp.cpp:1009] board not online or is still connecting, try again
+W1223 20:54:31.126329  8468 sddp.cpp:1009] board not online or is still connecting, try again
+W1223 20:54:31.574262  8468 sddp.cpp:1009] board not online or is still connecting, try again
+W1223 20:54:31.918366  8468 sddp.cpp:1009] board not online or is still connecting, try again
+I1223 20:54:38.710532  8468 mainwindow.cpp:173] InitService OK
+I1223 20:54:38.910532  8468 mainwindow.cpp:173] InitService OK
+I1223 20:54:39.086477  8468 mainwindow.cpp:173] InitService OK
+I1223 20:54:39.270573  8468 mainwindow.cpp:173] InitService OK
+I1223 20:54:39.430517  8468 mainwindow.cpp:173] InitService OK
+I1223 20:54:39.622521  8468 mainwindow.cpp:173] InitService OK
+I1223 20:54:39.782466  8468 mainwindow.cpp:173] InitService OK
+I1223 20:54:39.982462  8468 mainwindow.cpp:173] InitService OK
+I1223 20:54:40.366499  8468 mainwindow.cpp:173] InitService OK
+I1223 20:54:40.582461  8468 mainwindow.cpp:173] InitService OK
+I1223 20:54:40.782637  8468 mainwindow.cpp:173] InitService OK
+I1223 20:54:40.942564  8468 mainwindow.cpp:173] InitService OK
+I1223 20:54:41.150581  8468 mainwindow.cpp:173] InitService OK
+W1223 20:54:47.486651  8468 sddp.cpp:1009] board not online or is still connecting, try again
+W1223 20:54:48.439262  8468 sddp.cpp:1009] board not online or is still connecting, try again
+W1223 20:54:48.822846  8468 sddp.cpp:1009] board not online or is still connecting, try again
+W1223 20:54:49.174825  8468 sddp.cpp:1009] board not online or is still connecting, try again
+I1223 20:54:50.118747  8468 mainwindow.cpp:173] InitService OK
+W1223 20:54:50.726738  8468 sddp.cpp:1009] board not online or is still connecting, try again
+W1223 20:54:56.118852  8468 sddp.cpp:1009] board not online or is still connecting, try again
+W1223 20:54:56.623464  8468 sddp.cpp:1009] board not online or is still connecting, try again
+W1223 20:54:57.015429  8468 sddp.cpp:1009] board not online or is still connecting, try again
+W1223 20:54:57.287015  8468 sddp.cpp:1009] board not online or is still connecting, try again
+W1223 20:54:57.758918  8468 sddp.cpp:1009] board not online or is still connecting, try again
+W1223 20:54:58.311475  8468 sddp.cpp:1009] board not online or is still connecting, try again
+W1223 20:54:59.591006  8468 sddp.cpp:1009] board not online or is still connecting, try again
+W1223 20:55:00.271683  8468 sddp.cpp:1009] board not online or is still connecting, try again
+W1223 20:55:00.567548  8468 sddp.cpp:1009] board not online or is still connecting, try again
+W1223 20:55:00.855149  8468 sddp.cpp:1009] board not online or is still connecting, try again

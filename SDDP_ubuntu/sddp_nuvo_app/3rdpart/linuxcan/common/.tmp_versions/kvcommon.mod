@@ -1,0 +1,3 @@
+/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/linuxcan/common/kvcommon.ko
+/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/linuxcan/common/VCanOsIf.o /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/linuxcan/common/objbuf.o /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/linuxcan/common/queue.o /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/linuxcan/common/util.o /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/linuxcan/common/softsync.o /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/linuxcan/common/capabilities.o /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/linuxcan/common/dlc.o /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/linuxcan/common/ticks.o
+

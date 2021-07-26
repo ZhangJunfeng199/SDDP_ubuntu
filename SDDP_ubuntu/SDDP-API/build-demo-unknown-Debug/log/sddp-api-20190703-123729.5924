@@ -1,0 +1,11 @@
+Log file created at: 2019/07/03 12:37:29
+Running on machine: xuan-X470-AORUS-ULTRA-GAMING
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0703 12:37:29.737972  5924 sddp.cpp:961] connecting to board server...
+I0703 12:37:29.746150  5924 sddp.cpp:966] connected to board server done
+I0703 12:37:29.746917  5924 sddp.cpp:978] connected
+I0703 12:37:29.746940  5924 sddp.cpp:374] success to connect to board
+I0703 12:37:29.747144  5924 mainwindow.cpp:181] InitService OK
+I0703 12:37:51.591181  5924 sddp.cpp:515] enable steer ctrl
+I0703 12:39:15.753923  5924 mainwindow.cpp:181] InitService OK
+I0703 12:39:33.785704  5924 sddp.cpp:515] enable steer ctrl

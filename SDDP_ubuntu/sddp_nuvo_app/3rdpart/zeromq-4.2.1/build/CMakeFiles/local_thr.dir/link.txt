@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -O3 -DNDEBUG   CMakeFiles/local_thr.dir/perf/local_thr.cpp.o  -o bin/local_thr -rdynamic lib/libzmq.so.4.2.1 -lrt -lpthread -lrt -Wl,-rpath,/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/lib: 

@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/src/tweetnacl.c
+platform.hpp
+/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/src/platform.hpp
+tweetnacl.h
+/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/src/tweetnacl.h
+windows.h
+-
+wincrypt.h
+-
+sys/types.h
+-
+sys/stat.h
+-
+fcntl.h
+-
+unistd.h
+-
+
+/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/src/tweetnacl.h
+
+platform.hpp
+

@@ -1,0 +1,40 @@
+Log file created at: 2018/12/23 21:04:08
+Running on machine: open-iv-Nuvo-6108GC
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1223 21:04:08.806337  9086 sddp.cpp:961] connecting to board server...
+I1223 21:04:08.807037  9086 sddp.cpp:966] connected to board server done
+I1223 21:04:08.807705  9086 sddp.cpp:978] connected
+I1223 21:04:08.807723  9086 sddp.cpp:374] success to connect to board
+I1223 21:04:08.807823  9086 mainwindow.cpp:181] InitService OK
+W1223 21:04:18.668552  9086 sddp.cpp:1009] board not online or is still connecting, try again
+W1223 21:04:19.300546  9086 sddp.cpp:1009] board not online or is still connecting, try again
+W1223 21:04:19.901096  9086 sddp.cpp:1009] board not online or is still connecting, try again
+W1223 21:04:20.196717  9086 sddp.cpp:1009] board not online or is still connecting, try again
+W1223 21:04:21.604578  9086 sddp.cpp:1009] board not online or is still connecting, try again
+W1223 21:04:22.300565  9086 sddp.cpp:1009] board not online or is still connecting, try again
+W1223 21:04:22.844584  9086 sddp.cpp:1009] board not online or is still connecting, try again
+W1223 21:04:23.524796  9086 sddp.cpp:1009] board not online or is still connecting, try again
+W1223 21:04:23.900763  9086 sddp.cpp:1009] board not online or is still connecting, try again
+W1223 21:04:25.036698  9086 sddp.cpp:1009] board not online or is still connecting, try again
+W1223 21:04:25.372782  9086 sddp.cpp:1009] board not online or is still connecting, try again
+W1223 21:04:25.596741  9086 sddp.cpp:1009] board not online or is still connecting, try again
+W1223 21:04:25.996765  9086 sddp.cpp:1009] board not online or is still connecting, try again
+W1223 21:04:26.356760  9086 sddp.cpp:1009] board not online or is still connecting, try again
+W1223 21:04:26.693320  9086 sddp.cpp:1009] board not online or is still connecting, try again
+W1223 21:04:33.940799  9086 sddp.cpp:1009] board not online or is still connecting, try again
+W1223 21:04:34.508890  9086 sddp.cpp:1009] board not online or is still connecting, try again
+W1223 21:04:34.901192  9086 sddp.cpp:1009] board not online or is still connecting, try again
+W1223 21:04:35.316817  9086 sddp.cpp:1009] board not online or is still connecting, try again
+W1223 21:04:35.484809  9086 sddp.cpp:1009] board not online or is still connecting, try again
+I1223 21:04:36.404901  9086 mainwindow.cpp:181] InitService OK
+I1223 21:04:37.228948  9086 mainwindow.cpp:181] InitService OK
+I1223 21:04:37.772980  9086 mainwindow.cpp:181] InitService OK
+I1223 21:04:37.956969  9086 mainwindow.cpp:181] InitService OK
+I1223 21:04:38.140974  9086 mainwindow.cpp:181] InitService OK
+I1223 21:04:38.340940  9086 mainwindow.cpp:181] InitService OK
+W1223 21:04:39.276979  9086 sddp.cpp:1009] board not online or is still connecting, try again
+I1223 21:04:39.957602  9086 mainwindow.cpp:181] InitService OK
+W1223 21:04:40.325106  9086 sddp.cpp:1009] board not online or is still connecting, try again
+W1223 21:04:40.725283  9086 sddp.cpp:1009] board not online or is still connecting, try again
+W1223 21:04:41.149085  9086 sddp.cpp:1009] board not online or is still connecting, try again
+W1223 21:04:41.477144  9086 sddp.cpp:1009] board not online or is still connecting, try again

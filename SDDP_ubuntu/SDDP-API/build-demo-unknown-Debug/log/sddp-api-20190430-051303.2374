@@ -1,0 +1,22 @@
+Log file created at: 2019/04/30 05:13:03
+Running on machine: xuan-N8xEJEK
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0430 05:13:03.635316  2374 sddp.cpp:961] connecting to board server...
+I0430 05:13:03.641314  2374 sddp.cpp:966] connected to board server done
+I0430 05:13:03.642002  2374 sddp.cpp:978] connected
+I0430 05:13:03.642021  2374 sddp.cpp:374] success to connect to board
+I0430 05:13:03.642196  2374 mainwindow.cpp:181] InitService OK
+I0430 05:13:19.902370  2374 sddp.cpp:515] enable steer ctrl
+I0430 05:13:57.750154  2374 sddp.cpp:515] enable steer ctrl
+I0430 05:14:03.052161  2374 sddp.cpp:515] enable steer ctrl
+I0430 05:14:08.353972  2374 sddp.cpp:515] enable steer ctrl
+I0430 05:14:13.655781  2374 sddp.cpp:515] enable steer ctrl
+I0430 05:14:18.957567  2374 sddp.cpp:515] enable steer ctrl
+I0430 05:14:24.463385  2374 sddp.cpp:515] enable steer ctrl
+I0430 05:14:29.765367  2374 sddp.cpp:515] enable steer ctrl
+I0430 05:14:35.066959  2374 sddp.cpp:515] enable steer ctrl
+I0430 05:14:40.368608  2374 sddp.cpp:515] enable steer ctrl
+I0430 05:14:45.670122  2374 sddp.cpp:515] enable steer ctrl
+I0430 05:14:50.971887  2374 sddp.cpp:515] enable steer ctrl
+I0430 05:14:56.275240  2374 sddp.cpp:515] enable steer ctrl
+I0430 05:14:56.278000  2374 sddp.cpp:455] target mode is same to current mode

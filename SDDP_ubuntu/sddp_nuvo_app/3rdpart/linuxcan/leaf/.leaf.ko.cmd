@@ -1,0 +1,1 @@
+cmd_/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/linuxcan/leaf/leaf.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/linuxcan/leaf/leaf.ko /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/linuxcan/leaf/leaf.o /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/linuxcan/leaf/leaf.mod.o ;  true

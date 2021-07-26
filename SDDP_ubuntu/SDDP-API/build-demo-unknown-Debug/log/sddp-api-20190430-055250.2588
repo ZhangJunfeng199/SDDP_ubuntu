@@ -1,0 +1,9 @@
+Log file created at: 2019/04/30 05:52:50
+Running on machine: xuan-N8xEJEK
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0430 05:52:50.701800  2588 sddp.cpp:961] connecting to board server...
+I0430 05:52:50.707192  2588 sddp.cpp:966] connected to board server done
+I0430 05:52:50.708020  2588 sddp.cpp:978] connected
+I0430 05:52:50.708041  2588 sddp.cpp:374] success to connect to board
+I0430 05:52:50.708276  2588 mainwindow.cpp:181] InitService OK
+I0430 05:53:03.336315  2588 sddp.cpp:515] enable steer ctrl

@@ -1,0 +1,11 @@
+Log file created at: 2018/12/23 21:03:43
+Running on machine: open-iv-Nuvo-6108GC
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1223 21:03:43.511545  9032 sddp.cpp:961] connecting to board server...
+I1223 21:03:43.512271  9032 sddp.cpp:966] connected to board server done
+I1223 21:03:43.513135  9032 sddp.cpp:978] connected
+I1223 21:03:43.513144  9032 sddp.cpp:374] success to connect to board
+I1223 21:03:43.513478  9032 mainwindow.cpp:181] InitService OK
+I1223 21:03:43.515821  9032 mainwindow.cpp:181] InitService OK
+I1223 21:03:45.235775  9032 mainwindow.cpp:181] InitService OK
+W1223 21:03:48.227882  9032 sddp.cpp:1009] board not online or is still connecting, try again

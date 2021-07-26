@@ -1,0 +1,312 @@
+Determining if the function kqueue exists failed with the following output:
+Change Dir: /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0ff63/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0ff63.dir/build.make CMakeFiles/cmTC_0ff63.dir/build
+make[1]: Entering directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0ff63.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -I/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp/sys/event.h  -std=gnu11 -DCHECK_FUNCTION_EXISTS=kqueue   -o CMakeFiles/cmTC_0ff63.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0ff63
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0ff63.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu11 -DCHECK_FUNCTION_EXISTS=kqueue    CMakeFiles/cmTC_0ff63.dir/CheckFunctionExists.c.o  -o cmTC_0ff63 -rdynamic 
+CMakeFiles/cmTC_0ff63.dir/CheckFunctionExists.c.o：在函数‘main’中：
+CheckFunctionExists.c:(.text+0x15)：对‘kqueue’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_0ff63.dir/build.make:97: recipe for target 'cmTC_0ff63' failed
+make[1]: *** [cmTC_0ff63] Error 1
+make[1]: Leaving directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_0ff63/fast' failed
+make: *** [cmTC_0ff63/fast] Error 2
+
+
+Determining if files windows.h exist failed with the following output:
+Change Dir: /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8542d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8542d.dir/build.make CMakeFiles/cmTC_8542d.dir/build
+make[1]: Entering directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8542d.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -std=gnu11    -o CMakeFiles/cmTC_8542d.dir/CheckIncludeFiles.c.o   -c /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:21: fatal error: windows.h: 没有那个文件或目录
+compilation terminated.
+CMakeFiles/cmTC_8542d.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_8542d.dir/CheckIncludeFiles.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_8542d.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_8542d/fast' failed
+make: *** [cmTC_8542d/fast] Error 2
+
+Source:
+/* */
+#include <windows.h>
+
+
+int main(void){return 0;}
+
+Determining if the function fopen exists in the ws2_32 failed with the following output:
+Change Dir: /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c3d83/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c3d83.dir/build.make CMakeFiles/cmTC_c3d83.dir/build
+make[1]: Entering directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c3d83.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -std=gnu11 -DCHECK_FUNCTION_EXISTS=fopen   -o CMakeFiles/cmTC_c3d83.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c3d83
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3d83.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu11 -DCHECK_FUNCTION_EXISTS=fopen    CMakeFiles/cmTC_c3d83.dir/CheckFunctionExists.c.o  -o cmTC_c3d83 -rdynamic -lws2_32 
+/usr/bin/ld: 找不到 -lws2_32
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_c3d83.dir/build.make:97: recipe for target 'cmTC_c3d83' failed
+make[1]: *** [cmTC_c3d83] Error 1
+make[1]: Leaving directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_c3d83/fast' failed
+make: *** [cmTC_c3d83/fast] Error 2
+
+
+Determining if the function fopen exists in the ws2 failed with the following output:
+Change Dir: /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3ebce/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3ebce.dir/build.make CMakeFiles/cmTC_3ebce.dir/build
+make[1]: Entering directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3ebce.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -std=gnu11 -DCHECK_FUNCTION_EXISTS=fopen   -o CMakeFiles/cmTC_3ebce.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3ebce
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ebce.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu11 -DCHECK_FUNCTION_EXISTS=fopen    CMakeFiles/cmTC_3ebce.dir/CheckFunctionExists.c.o  -o cmTC_3ebce -rdynamic -lws2 
+/usr/bin/ld: 找不到 -lws2
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_3ebce.dir/build.make:97: recipe for target 'cmTC_3ebce' failed
+make[1]: *** [cmTC_3ebce] Error 1
+make[1]: Leaving directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_3ebce/fast' failed
+make: *** [cmTC_3ebce/fast] Error 2
+
+
+Determining if the function fopen exists in the rpcrt4 failed with the following output:
+Change Dir: /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6d1f6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6d1f6.dir/build.make CMakeFiles/cmTC_6d1f6.dir/build
+make[1]: Entering directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6d1f6.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -std=gnu11 -DCHECK_FUNCTION_EXISTS=fopen   -o CMakeFiles/cmTC_6d1f6.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6d1f6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6d1f6.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu11 -DCHECK_FUNCTION_EXISTS=fopen    CMakeFiles/cmTC_6d1f6.dir/CheckFunctionExists.c.o  -o cmTC_6d1f6 -rdynamic -lrpcrt4 
+/usr/bin/ld: 找不到 -lrpcrt4
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_6d1f6.dir/build.make:97: recipe for target 'cmTC_6d1f6' failed
+make[1]: *** [cmTC_6d1f6] Error 1
+make[1]: Leaving directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_6d1f6/fast' failed
+make: *** [cmTC_6d1f6/fast] Error 2
+
+
+Determining if the function fopen exists in the iphlpapi failed with the following output:
+Change Dir: /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e8c48/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e8c48.dir/build.make CMakeFiles/cmTC_e8c48.dir/build
+make[1]: Entering directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e8c48.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -std=gnu11 -DCHECK_FUNCTION_EXISTS=fopen   -o CMakeFiles/cmTC_e8c48.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e8c48
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8c48.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu11 -DCHECK_FUNCTION_EXISTS=fopen    CMakeFiles/cmTC_e8c48.dir/CheckFunctionExists.c.o  -o cmTC_e8c48 -rdynamic -liphlpapi 
+/usr/bin/ld: 找不到 -liphlpapi
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_e8c48.dir/build.make:97: recipe for target 'cmTC_e8c48' failed
+make[1]: *** [cmTC_e8c48] Error 1
+make[1]: Leaving directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_e8c48/fast' failed
+make: *** [cmTC_e8c48/fast] Error 2
+
+
+Determining if the LOCAL_PEERCRED exist failed with the following output:
+Change Dir: /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6d990/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6d990.dir/build.make CMakeFiles/cmTC_6d990.dir/build
+make[1]: Entering directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6d990.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++     -std=gnu++11    -o CMakeFiles/cmTC_6d990.dir/CheckSymbolExists.cxx.o -c /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘LOCAL_PEERCRED’ was not declared in this scope
+   return ((int*)(&LOCAL_PEERCRED))[argc];
+                   ^
+CMakeFiles/cmTC_6d990.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_6d990.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_6d990.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_6d990/fast' failed
+make: *** [cmTC_6d990/fast] Error 2
+
+File /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <sys/socket.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef LOCAL_PEERCRED
+  return ((int*)(&LOCAL_PEERCRED))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_90285/fast"
+/usr/bin/make -f CMakeFiles/cmTC_90285.dir/build.make CMakeFiles/cmTC_90285.dir/build
+make[1]: Entering directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_90285.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -std=gnu11    -o CMakeFiles/cmTC_90285.dir/CheckSymbolExists.c.o   -c /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_90285
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_90285.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu11     CMakeFiles/cmTC_90285.dir/CheckSymbolExists.c.o  -o cmTC_90285 -rdynamic 
+CMakeFiles/cmTC_90285.dir/CheckSymbolExists.c.o：在函数‘main’中：
+CheckSymbolExists.c:(.text+0x16)：对‘pthread_create’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_90285.dir/build.make:97: recipe for target 'cmTC_90285' failed
+make[1]: *** [cmTC_90285] Error 1
+make[1]: Leaving directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_90285/fast' failed
+make: *** [cmTC_90285/fast] Error 2
+
+File /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c93a1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c93a1.dir/build.make CMakeFiles/cmTC_c93a1.dir/build
+make[1]: Entering directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c93a1.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -std=gnu11 -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_c93a1.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c93a1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c93a1.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu11 -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_c93a1.dir/CheckFunctionExists.c.o  -o cmTC_c93a1 -rdynamic -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_c93a1.dir/build.make:97: recipe for target 'cmTC_c93a1' failed
+make[1]: *** [cmTC_c93a1] Error 1
+make[1]: Leaving directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_c93a1/fast' failed
+make: *** [cmTC_c93a1/fast] Error 2
+
+
+Determining if the function gethrtime exists failed with the following output:
+Change Dir: /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ee0ae/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ee0ae.dir/build.make CMakeFiles/cmTC_ee0ae.dir/build
+make[1]: Entering directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ee0ae.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -I/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp/sys/time.h  -std=gnu11 -DCHECK_FUNCTION_EXISTS=gethrtime   -o CMakeFiles/cmTC_ee0ae.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ee0ae
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ee0ae.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu11 -DCHECK_FUNCTION_EXISTS=gethrtime    CMakeFiles/cmTC_ee0ae.dir/CheckFunctionExists.c.o  -o cmTC_ee0ae -rdynamic 
+CMakeFiles/cmTC_ee0ae.dir/CheckFunctionExists.c.o：在函数‘main’中：
+CheckFunctionExists.c:(.text+0x15)：对‘gethrtime’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_ee0ae.dir/build.make:97: recipe for target 'cmTC_ee0ae' failed
+make[1]: *** [cmTC_ee0ae] Error 1
+make[1]: Leaving directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ee0ae/fast' failed
+make: *** [cmTC_ee0ae/fast] Error 2
+
+
+Performing C SOURCE FILE Test ZMQ_HAVE_TCP_KEEPALIVE failed with the following output:
+Change Dir: /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f204e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f204e.dir/build.make CMakeFiles/cmTC_f204e.dir/build
+make[1]: Entering directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f204e.dir/src.c.o
+/usr/bin/cc    -std=gnu11 -DZMQ_HAVE_TCP_KEEPALIVE   -o CMakeFiles/cmTC_f204e.dir/src.c.o   -c /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp/src.c
+/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp/src.c:13:42: error: ‘TCP_KEEPALIVE’ undeclared (first use in this function)
+        ((rc = setsockopt(s, IPPROTO_TCP, TCP_KEEPALIVE,(char*) &opt, sizeof(int))) == -1)
+                                          ^
+/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp/src.c:13:42: note: each undeclared identifier is reported only once for each function it appears in
+CMakeFiles/cmTC_f204e.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_f204e.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_f204e.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_f204e/fast' failed
+make: *** [cmTC_f204e/fast] Error 2
+
+Return value: 1
+Source file was:
+
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+
+int main(int argc, char *argv [])
+{
+    int s, rc, opt = 1;
+    return(
+       ((s = socket(PF_INET, SOCK_STREAM, 0)) == -1) ||
+       ((rc = setsockopt(s, SOL_SOCKET, SO_KEEPALIVE,(char*) &opt, sizeof(int))) == -1) ||
+       ((rc = setsockopt(s, IPPROTO_TCP, TCP_KEEPALIVE,(char*) &opt, sizeof(int))) == -1)
+    );
+}
+
+Performing C SOURCE FILE Test ZMQ_HAVE_TIPC failed with the following output:
+Change Dir: /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3bf91/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3bf91.dir/build.make CMakeFiles/cmTC_3bf91.dir/build
+make[1]: Entering directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3bf91.dir/src.c.o
+/usr/bin/cc    -std=gnu11 -DZMQ_HAVE_TIPC   -o CMakeFiles/cmTC_3bf91.dir/src.c.o   -c /home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_3bf91
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3bf91.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu11 -DZMQ_HAVE_TIPC    CMakeFiles/cmTC_3bf91.dir/src.c.o  -o cmTC_3bf91 -rdynamic 
+make[1]: Leaving directory '/home/gdw/projects/SDDP/sddp_nuvo_app/3rdpart/zeromq-4.2.1/build/CMakeFiles/CMakeTmp'
+
+Return value: 255
+Source file was:
+
+#include <stdlib.h>
+#include <string.h>
+#include <fcntl.h>
+#include <errno.h>
+#include <sys/socket.h>
+#include <linux/tipc.h>
+
+int main(int argc, char *argv [])
+{
+    struct sockaddr_tipc topsrv;
+    int sd = socket(AF_TIPC, SOCK_SEQPACKET, 0);
+    if (sd == -EAFNOSUPPORT) {
+        return 1;
+    }
+    memset(&topsrv, 0, sizeof(topsrv));
+    topsrv.family = AF_TIPC;
+    topsrv.addrtype = TIPC_ADDR_NAME;
+    topsrv.addr.name.name.type = TIPC_TOP_SRV;
+    topsrv.addr.name.name.instance = TIPC_TOP_SRV;
+    fcntl(sd, F_SETFL, O_NONBLOCK);
+    if (connect(sd, (struct sockaddr *)&topsrv, sizeof(topsrv)) != 0) {
+        if (errno != EINPROGRESS)
+            return -1;
+    }
+}
+
